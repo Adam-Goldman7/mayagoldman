@@ -1,0 +1,334 @@
+/*
+Theme Name: Maya Goldman Theme
+Theme URI: http://psdtohtmlz.com
+Author: Adam - World's best son
+Author URI: http://psdtohtmlz.com
+Description: Awesome theme for awesome mother!
+Version: 1.0
+*/
+
+
+
+/* ============================= RESET ============================= */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, ul,
+dl, dt, dd, ol, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============================= RESET ============================= */
+
+
+/* ========================================================== GLOBAL ========================================================== */
+/* ============================= MISC ============================= */
+body
+{
+	background: #f9fbfd;
+	color: #666;
+	font-size: 16px;
+	font-family: 'Arial';
+}
+.wrapper
+{
+	margin: 0 auto;
+	width: 860px;
+	position: relative;
+}
+h3
+{
+	color: #F1792B;
+	margin-bottom: 14px;
+}
+.centered-list
+{
+	text-align: center;
+}
+.centered-list li
+{
+	display: inline;
+	padding: 0 5px;
+	border-right: 1px solid #ed5334;
+}
+.centered-list li:first-child
+{
+	border: none;
+}
+.centered-list *
+{
+	color: #ee5e41;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+.ltr
+{
+	direction: ltr;
+}
+.center-text
+{
+	text-align: center;
+}
+.clear
+{
+	clear: both;
+}
+strong
+{
+	font-weight: bold;
+}
+.hidden
+{
+	display: none;
+}
+/* ============================= MISC ============================= */
+
+
+/* ============================= HEADER ============================= */
+header.main
+{
+	border-bottom: 1px solid #f39355;
+	margin-bottom: 20px;
+}
+header.main hgroup
+{
+	background: url(images/logo.png) no-repeat;
+	overflow: hidden;
+	width: 355px;
+	height: 52px;
+	line-height: 120px;
+	position: relative;
+	right: -30px;
+}
+header.main h1
+{
+	color: #ed5334;
+	font-size: 20px;
+}
+header.main h1 span
+{
+	color: f1792b;
+}
+/* ============================= HEADER ============================= */
+
+
+/* ============================= MAIN DIV ============================= */
+div.main
+{
+	float: left;
+	margin-left: 250px;
+	width: 460px;
+	min-height: 326px;
+}
+div.main ul
+{
+	margin: 10px 0;
+	padding-right: 15px;
+}
+div.main p
+{
+	margin-bottom: 10px;
+}
+div.main a
+{
+	color: #42c61a;
+	transition: opacity .5s ease;
+} 
+div.main a:hover
+{
+	opacity: .7;
+}
+div.main article
+{
+	margin-bottom: 20px;
+}
+div.main h2
+{
+	color: #F1792B;
+	font-weight: bold;
+	font-size: 18px;
+}
+div.main li
+{
+	margin-bottom: 5px;
+}
+/* ============================= MAIN DIV ============================= */
+
+
+/* ============================= SIDEBAR ============================= */
+.sidebar
+{
+	float: right;
+	width: 125px;
+	margin-left: 20px;
+}
+.sidebar ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar li a
+{
+	background: #e3e5d4;
+	color: #808080;
+	margin-bottom: 2px;
+	display: block;
+	padding: 5px 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.sidebar li a:hover,
+.sidebar li.current-menu-item a
+{
+	background: #f1792b;
+	color: #fff;
+	-webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(0, 0, 0, 1);
+	box-shadow:         inset 0px 0px 3px rgba(0, 0, 0, 1);
+}
+/* ============================= SIDEBAR ============================= */
+
+
+/* ============================= FOOTER ============================= */
+footer.main
+{
+	border-top: 1px solid #f4ad7f;
+	padding-top: 10px;
+	margin-top: 20px;
+	clear: both;
+}
+#bg_flower
+{
+	position: absolute;
+	left: -170px;
+	top: -28px;
+	background-repeat: no-repeat;
+}
+.page #bg_flower
+{
+	background-image: url(images/page_bg_flower.png);
+	width: 371px;
+	height: 436px;
+}
+.home.page #bg_flower
+{
+	background-image: url(images/hp_bg_flower.png);
+	width: 366px;
+	height: 537px;
+}
+/* ============================= FOOTER ============================= */
+/* ========================================================== GLOBAL ========================================================== */
+
+
+/* ========================================================== INTERNAL PAGES ========================================================== */
+/* ============================= Homepage ============================= */
+.home #todayActivities
+{
+	margin-top: 30px;
+}
+.home div.main
+{
+	min-height: 423px;
+}
+/* ============================= Homepage ============================= */
+
+
+/* ============================= Lectures & Workshops ============================= */
+.page-id-12 div.main h1
+{
+	color: #F1792B;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.page-id-12 article article
+{
+	padding-right: 20px;
+}
+.page-id-12 div.main h2
+{
+	color: #000;
+	font-weight: normal;
+	font-size: 18px;
+	cursor: pointer;
+	position: relative;
+}
+.page-id-12 div.main h2:before
+{
+	content: '';
+	position: absolute;
+	right: -22px;
+	top: 7px;
+	border-top: 7px solid #F1792B;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+}
+.page-id-12 div.main h2.active:before
+{
+	border-bottom: 7px solid #F1792B;
+	border-top: none;
+}
+/* ============================= Lectures & Workshops ============================= */
+/* ========================================================== INTERNAL PAGES ========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
